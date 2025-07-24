@@ -170,6 +170,6 @@ This project is part of the 100 Days of Flutter Challenge, where I build a new F
 
 ## 📞 Contact
 
-Your Name - [@yourusername](https://twitter.com/yourusername) - email@example.com
+Your Name - [@moshaddaque](https://twitter.com/yourusername) - info.moshaddaque@gmail.com
 
 Project Link: [https://github.com/yourusername/day_07_clock_craft](https://github.com/yourusername/day_07_clock_craft)
