@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:padding="8dp">
+
+    <!-- Analog Clock View (Hidden by default) -->
+    <AnalogClock
+        android:id="@+id/widget_analog_clock"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <!-- Digital Clock Container -->
+    <LinearLayout
+        android:id="@+id/widget_digital_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!-- Time Display -->
+        <TextView
+            android:id="@+id/widget_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12:00 PM"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <!-- Date Display -->
+        <TextView
+            android:id="@+id/widget_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Mon, Jan 1"
+            android:textColor="#CCCCCC"
+            android:textSize="14sp" />
+
+        <!-- Weather Icon (Hidden by default) -->
+        <ImageView
+            android:id="@+id/widget_weather_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="8dp"
+            android:src="@android:drawable/ic_menu_compass"
+            android:tint="#FFFFFF"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>
