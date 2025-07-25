@@ -2,6 +2,7 @@
 
 [![Flutter Version](https://img.shields.io/badge/Flutter-3.7.0+-blue.svg)](https://flutter.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Day Progress](https://img.shields.io/badge/Day-7%2F100-success.svg)](https://github.com/yourusername/day_07_clock_craft)
 
 A beautiful Flutter clock application with customizable home screen widgets for Android and iOS. Part of the 100 Days of Flutter Challenge (Day 7).
 
